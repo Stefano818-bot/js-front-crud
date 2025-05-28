@@ -1,12 +1,55 @@
-# React + Vite
+# CRUD Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es el frontend de la aplicación CRUD desarrollado con React y Bootstrap. Permite gestionar usuarios y productos, además de exportar los datos en formato PDF.
 
-Currently, two official plugins are available:
+## Requisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Node.js (versión 16 o superior)
+- npm (gestor de paquetes de Node.js)
 
-## Expanding the ESLint configuration
+## Instalación
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/Stefano818-bot/js-front-crud.git
+   ```
+
+2. Navega a la carpeta del proyecto:
+   ```bash
+   cd js-front-crud
+   ```
+
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+
+## Ejecución
+
+1. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+
+2. Abre la aplicación en tu navegador:
+   ```text
+   http://localhost:5173
+   ```
+
+## Características
+
+- Gestión de usuarios: Crear, editar, eliminar y listar.
+- Gestión de productos: Crear, editar, eliminar y listar.
+- Exportación de datos en formato PDF.
+
+## Notas
+
+- Asegúrate de que el backend esté corriendo en `http://localhost:3000` antes de usar el frontend.
+- El backend está disponible en el repositorio [js-back-crud_api](https://github.com/Stefano818-bot/js-back-crud_api#).
+
+## Tecnologías utilizadas
+
+- React
+- Bootstrap
+- Axios
+- jsPDF
